@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+	--lime-green: hsl(163, 72%, 41%);
+	--bright-red: hsl(356, 69%, 56%);
+	--facebook: hsl(208, 92%, 53%);
+	--twitter: hsl(203, 89%, 53%);
+	--youtube: hsl(348, 97%, 39%);
+	--instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+	--toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+	--toggle-light: hsl(230, 22%, 74%);
+	/* DARK THEME */
+	--dark-blue-bg: hsl(230, 17%, 14%);
+	--dark-blue-top-bg: hsl(232, 19%, 15%);
+	--dark-blue-top-bg: hsl(232, 19%, 15%);
+}
+.dark-theme {
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4rem;
+	font-family: "Inter", sans-serif;
+	padding: 4rem 2rem;
+	background-color: rgba(0, 0, 0, 0.356);
+}
+header {
+	display: flex;
+	flex-direction: column;
+}
+.theme {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.switcher {
+	width: 5rem;
+	height: 3rem;
+	border-radius: 3rem;
+	background-color: rgba(255, 0, 0, 0.466);
+}

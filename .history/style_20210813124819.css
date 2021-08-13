@@ -217,7 +217,7 @@ h1 {
 	grid-row-gap: 1.5rem;
 }
 .overview__grid__item {
-	transform: translateX(50px);
+	transform: translateX(300px);
 	transition: 2s ease-in-out;
 	opacity: 0;
 	display: flex;

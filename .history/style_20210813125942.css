@@ -123,7 +123,7 @@ h1 {
 	gap: 3rem;
 }
 .socials__item {
-	transform: translateX(-300px);
+	transform: translateX(300px);
 	pointer-events: none;
 	width: 100%;
 	background-color: var(--card-bg);
@@ -218,7 +218,7 @@ h1 {
 	grid-row-gap: 1.5rem;
 }
 .overview__grid__item {
-	transform: translateX(300px);
+	transform: translateX(-300px);
 	pointer-events: none;
 	transition: 2s ease-in-out;
 	opacity: 0;

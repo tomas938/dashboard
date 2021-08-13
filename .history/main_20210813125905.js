@@ -40,7 +40,6 @@ function reset(classlist, timeout) {
 window.addEventListener(
 	"onload",
 	socials.forEach((item) => {
-		item.style.transform = "translate(0)";
 		item.style.opacity = 1;
 		setInterval(() => {
 			item.style.pointerEvents = "auto";

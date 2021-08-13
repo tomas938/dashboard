@@ -41,7 +41,7 @@ window.addEventListener(
 	"onload",
 	socials.forEach((item) => {
 		item.style.opacity = 1;
-		setInterval(() => {
+		setInterval((.) => {
 			item.style.pointerEvents = "auto";
 		}, 2000);
 	}),

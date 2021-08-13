@@ -43,13 +43,10 @@ window.addEventListener(
 		item.style.opacity = 1;
 		setInterval((item) => {
 			item.style.pointersEvents = "auto";
-		}, 2000);
+		});
 	}),
 	overview.forEach((item) => {
 		item.style.opacity = 1;
-		setInterval((item) => {
-			item.style.pointersEvents = "auto";
-		}, 2000);
 	})
 );
 header.style.opacity = 1;

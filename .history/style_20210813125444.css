@@ -218,6 +218,7 @@ h1 {
 }
 .overview__grid__item {
 	pointer-events: none;
+
 	transition: 2s ease-in-out;
 	opacity: 0;
 	display: flex;
